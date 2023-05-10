@@ -37,6 +37,7 @@ const resolveEnvironment = () => {
 }
 
 
-export default {
- ...resolveEnvironment(),
-}
+export default ({ config }) => ({
+  ...config,
+  ...resolveEnvironment()
+})

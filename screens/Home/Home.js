@@ -10,7 +10,7 @@ const Home = () => (
           <VStack>
 
           <Text color="white" fontWeight="semibold" fontSize="lg">React Native</Text>
-          <Text color="white">nananana na ananana na na na na na  ana n anan an na nananannanana an na nan a</Text>
+          <Text color="white">React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces. </Text>
           </VStack>
         </HStack>
         <HStack rounded="2xl" p={4} minH={32} bg="blue.900" mt={2}>
