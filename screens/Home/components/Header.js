@@ -10,7 +10,7 @@ const Header = () => (
     borderBottomRadius={'3xl'}
   >
     <Avatar size="2xl" source={require('../../../assets/avatar.jpeg')}/>
-    <Text fontWeight="semibold" fontSize="lg" mt={2}>John Doe</Text>
+    <Text fontWeight="semibold" fontSize="lg" mt={2}>Robert Downey Jr.</Text>
     <Text fontWeight="normal" fontSize="md" mt={2}>Mobile Developer | React Native</Text>
     <Text fontWeight="normal" fontSize="md" mt={2}>{process.env.API_URL}</Text>
 

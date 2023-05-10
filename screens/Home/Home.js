@@ -13,11 +13,11 @@ const Home = () => (
           <Text color="white">nananana na ananana na na na na na  ana n anan an na nananannanana an na nan a</Text>
           </VStack>
         </HStack>
-        <HStack rounded="2xl" p={4} h={32} bg="blue.900" mt={2}>
+        <HStack rounded="2xl" p={4} minH={32} bg="blue.900" mt={2}>
           <VStack>
 
           <Text color="white" fontWeight="semibold" fontSize="lg">React Query</Text>
-          <Text color="white">nananana na ananana na na na na na  ana n anan an na nananannanana an na nan a</Text>
+          <Text color="white">Toss out that granular state management, manual refetching and endless bowls of async-spaghetti code. TanStack Query gives you declarative, always-up-to-date auto-managed queries and mutations that directly improve both your developer and user experiences.</Text>
           </VStack>
         </HStack>
         <HStack rounded="2xl" p={4} h={40} bg="gray.700" mt={2}>
