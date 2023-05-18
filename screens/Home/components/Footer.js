@@ -9,6 +9,7 @@ export default function Footer() {
       <Text color="white">@env - {DYNAMIC_PHRASE}</Text>
       <Text color="white" fontWeight="semibold">process.env - {process.env.DYNAMIC_PHRASE}</Text>
       <Text>Environment - {process.env.APP_ENV}</Text>
+      <Text>1233 1234 123</Text>
     </Box>
   )
 }
