@@ -6,6 +6,9 @@ const Home = () => (
   <Box flex={1} safeArea>
     <Box flex={1}>
       <ScrollView>
+        <Box p={4} bg="red.400">
+          <Text color="white">Updates OTA</Text>
+        </Box>
         <Header />
         <Box p={4}>
           <HStack rounded="2xl" p={4} h={40} bg="gray.700">
